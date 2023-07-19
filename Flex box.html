@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Flex box</title>
+        <style>
+            body{
+                background-image: linear-gradient(to right, aquamarine,red);
+            }
+            .flex-content{
+               border: 6px solid black;
+               min-height: 400;
+               width: 600;
+             
+               
+                
+            }
+            
+            .flex-content div{
+                 flex-wrap: wrap;
+                border: 2px solid white;
+                height: 80;
+                width: 200; 
+                display: flex;
+            }
+            .box{
+                 display: flex;
+                flex-direction:column;  
+                -ms-flex-align: center;    
+
+            }
+            .boxx{
+                display: flex;
+                flex-direction:row;
+            }
+        
+          
+        </style>
+    </head>
+        <body>
+            <h1>Create Flexbox Container</h1>
+        
+            <div class="flex-content">
+              <div class="box">1</div>
+              <div class="box">2</div>
+              <div class="box">3</div>
+              <div class="boxx">4</div>
+              <div class="boxx">5</div>
+              <div class="boxx">6</div>
+              
+            </div>
+        </body>
+    
+</html>
